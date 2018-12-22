@@ -2,7 +2,8 @@
 download_astro_ph_EP_pdfs.py
 Daniel Mentiplay, 2018.
 
-Example script using arxiv python module.
+This script downloads all the pdfs in astro-ph.EP for the arXiv email in the
+current directory. Assumes the arXiv email is called 'original_msg.txt'.
 '''
 
 from arxiv.arxiv import Arxiv, download_pdf_from_article_url
