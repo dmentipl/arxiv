@@ -5,7 +5,7 @@ Daniel Mentiplay, 2018.
 Example script using arxiv python module.
 '''
 
-from arxiv import Arxiv, download_pdf_from_article_url
+from arxiv.arxiv import Arxiv, download_pdf_from_article_url
 
 arxiv = Arxiv()
 
